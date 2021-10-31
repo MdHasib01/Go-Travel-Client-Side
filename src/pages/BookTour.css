@@ -1,0 +1,13 @@
+.book-main-sec {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+}
+.tour-sec {
+  border-right: 1px solid black;
+}
+.tour-sec img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}

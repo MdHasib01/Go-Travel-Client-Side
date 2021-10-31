@@ -1,0 +1,27 @@
+.primary-color {
+  color: #ff7c5b;
+}
+.card-img {
+  height: 250px;
+  object-fit: cover;
+}
+.primary-btn {
+  background-color: #ff7c5b;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.primary-btn:hover {
+  background-color: #061a3a;
+}
+.card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.card-price {
+  font-size: 1.2em;
+  font-weight: bold;
+}

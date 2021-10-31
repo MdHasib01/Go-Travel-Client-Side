@@ -1,0 +1,13 @@
+.logo {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.nav-login img {
+  width: 40px;
+  border-radius: 50%;
+}
+.nav-login a {
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 1em;
+}

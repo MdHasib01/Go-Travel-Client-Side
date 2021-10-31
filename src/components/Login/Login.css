@@ -1,0 +1,15 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.login button {
+  background-color: white;
+  border: 3px solid #061a3a;
+  color: #061a3a;
+  padding: 8px 25px;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 230px;
+}

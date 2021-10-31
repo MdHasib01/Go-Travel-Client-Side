@@ -1,0 +1,11 @@
+.services {
+  background-color: #f5f6f6;
+  padding: 10px;
+}
+.head-text {
+  color: #061a3a;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
