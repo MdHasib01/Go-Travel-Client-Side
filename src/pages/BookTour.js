@@ -26,7 +26,7 @@ const BookTour = () => {
   return (
     <div className="book-main-sec container">
       <div>
-        <h2>Book tour: {tourId}</h2>
+        <h2 className="head-text text-center mb-5">Book Tour Now</h2>
         {services
           .filter((service) => service._id === tourId)
           .map((service, index) => (

@@ -37,7 +37,7 @@ const Banner = () => {
             <Card.Img
               className="card-img"
               variant="top"
-              src="https://i.ibb.co/0Jk114y/pexels-rachel-claire-4825701.jpg"
+              src="https://i.ibb.co/BcrdDdN/pexels-roberto-nickson-2559941-min.jpg"
             />
           </Card>
         </Col>

@@ -11,6 +11,7 @@ import ManageTour from "./components/ManageTour/ManageTour";
 import AuthProvider from "./contexts/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Footer from "./components/Footer/Footer";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 function App() {
   return (
@@ -25,9 +26,9 @@ function App() {
             <Route path="/home">
               <HomePage></HomePage>
             </Route>
-            <Route path="/addservice">
+            <PrivateRoute path="/addservice">
               <AddService></AddService>
-            </Route>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -37,8 +38,11 @@ function App() {
             <PrivateRoute path="/manage_tour">
               <ManageTour></ManageTour>
             </PrivateRoute>
-            <Route path="/manage">
+            <PrivateRoute path="/manage">
               <ManageService></ManageService>
+            </PrivateRoute>
+            <Route path="*">
+              <PageNotFound />
             </Route>
           </Switch>
           <Footer></Footer>

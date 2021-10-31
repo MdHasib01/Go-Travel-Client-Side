@@ -13,8 +13,11 @@ const HomeBanner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Explore Your Travel</h3>
+            <p>
+              Discover your next great adventure, become an explorer to get
+              started!
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -25,8 +28,11 @@ const HomeBanner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>World Best Travel Agency Company Since 2008.</h3>
+            <p>
+              Discover your next great adventure, become an explorer to get
+              started!
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -37,9 +43,10 @@ const HomeBanner = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Explore the World for Travel</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Discover your next great adventure, become an explorer to get
+              started!
             </p>
           </Carousel.Caption>
         </Carousel.Item>

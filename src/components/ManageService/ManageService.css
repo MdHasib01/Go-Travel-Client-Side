@@ -1,0 +1,9 @@
+.manage-service {
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+  border: 2px solid tomato;
+  padding: 15px;
+  border-radius: 10px;
+}

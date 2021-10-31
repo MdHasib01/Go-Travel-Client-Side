@@ -14,7 +14,7 @@ const NavBar = () => {
   const { user, logOut } = useAuth();
   return (
     <div className="mb-5">
-      <Navbar fixed="top" bg="light" expand="lg">
+      <Navbar fixed="top" bg="light" expand="md">
         <Container>
           <Navbar.Brand className="logo" as={Link} to="/">
             <span className="primary-color">
@@ -42,36 +42,42 @@ const NavBar = () => {
               <Nav.Link as={HashLink} to="home/path#tours">
                 Our Tour
               </Nav.Link>
-              <Nav.Link
-                activeStyle={{
-                  fontWeight: "bold",
-                  color: "#ff7c5b",
-                }}
-                as={NavLink}
-                to="/addservice"
-              >
-                Add Service
-              </Nav.Link>
-              <Nav.Link
-                activeStyle={{
-                  fontWeight: "bold",
-                  color: "#ff7c5b",
-                }}
-                as={NavLink}
-                to="/manage_tour"
-              >
-                Manage Tour
-              </Nav.Link>
-              <Nav.Link
-                activeStyle={{
-                  fontWeight: "bold",
-                  color: "#ff7c5b",
-                }}
-                as={NavLink}
-                to="/manage"
-              >
-                Manage Service
-              </Nav.Link>
+              {user.displayName && (
+                <Nav.Link
+                  activeStyle={{
+                    fontWeight: "bold",
+                    color: "#ff7c5b",
+                  }}
+                  as={NavLink}
+                  to="/addservice"
+                >
+                  Add Service
+                </Nav.Link>
+              )}
+              {user.displayName && (
+                <Nav.Link
+                  activeStyle={{
+                    fontWeight: "bold",
+                    color: "#ff7c5b",
+                  }}
+                  as={NavLink}
+                  to="/manage_tour"
+                >
+                  Manage Tour
+                </Nav.Link>
+              )}
+              {user.displayName && (
+                <Nav.Link
+                  activeStyle={{
+                    fontWeight: "bold",
+                    color: "#ff7c5b",
+                  }}
+                  as={NavLink}
+                  to="/manage"
+                >
+                  Manage Booking
+                </Nav.Link>
+              )}
               <Nav.Link
                 activeStyle={{
                   fontWeight: "bold",
