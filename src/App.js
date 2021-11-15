@@ -32,9 +32,9 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/booktour/:tourId">
+            <PrivateRoute path="/booktour/:tourId">
               <BookTour></BookTour>
-            </Route>
+            </PrivateRoute>
             <PrivateRoute path="/manage_tour">
               <ManageTour></ManageTour>
             </PrivateRoute>
